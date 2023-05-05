@@ -1,0 +1,182 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+
+  <meta charset="UTF-8"> 
+
+  <meta name="viewport" content="width=device-width"> 
+
+  <title>Portfolio</title> 
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head> 
+<body> 
+  <nav class="navbar"> 
+<ul>  
+<li><a href="#">Home</a></li>  
+<li><a href="#">About</a></li>  
+<li><a href="#">Coursework</a></li>  
+  <li><a href="#">Artifacts</a></li>
+<li><a href="#">Module Assignments</a></li>  
+  <li><a href="#">Contact me</a></li>  
+  <li><a href="#">4YOURownGOOD</a></li>  
+</ul>  
+</nav
+    <section id="home">
+    <div class="main">
+      <h1 class="headings">I AM<br>MAKIEL ESPINOSA</h1>
+      <button class="btn">
+        Hire me
+      </button>
+    </div>
+    </section>
+  <section id="about">
+    <h1 class="headings">ABOUT ME</h1>
+    <div id="pic">
+      <img src="" alt="">
+      <div id="intro">
+        <h2>Makiel Espinosa</h2>
+        <p>HEllo!</p>
+      </div>
+      </section>
+    <section id="portfolio">
+      <h1 class="headings">PORTFOLIO</h1>
+      <div class="gallery">
+    </body> 
+  </html>
+*{ 
+
+  margin: 0; 
+
+  padding: 0; 
+
+  box-sizing: border-box; 
+
+} 
+
+/* Navbar */ 
+
+.navbar{ 
+
+  display: flex; 
+
+  justify-content: center; 
+
+  align-items: center; 
+
+  background-color: rgba(0, 0, 0, 0.5); 
+
+  position: sticky; 
+
+} 
+
+.navbar ul{ 
+
+  display: flex; 
+
+  list-style: none; 
+
+  margin: 20px 0px; 
+
+} 
+
+.navbar ul li{ 
+
+  font-family: century; 
+
+  font-size: 1.1rem; 
+
+  font-weight: bold; 
+
+} 
+
+.navbar ul li a{ 
+
+  text-decoration: none; 
+
+  color: white; 
+
+  padding: 8px 25px; 
+  transition: all .5s ease;
+} 
+.navbar ul li a:hover{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 10px white;
+}
+/* Home section */
+#home{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 840px;
+    justify-content: center;
+  align-items: center;
+  color: white;
+}
+#home::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("") no-repeat center center/cover;
+  height: 900px;
+  width 100%;
+  z-index:-1;
+  opacity: .8;0 
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid white; */
+  align-items: center;
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+.headings{
+  font-family: century;
+  font-size 3rem;
+  text-align: center;
+  margin: 40px 0px;
+}
+.btn{
+  padding: 10px 35px;
+  background-color: transparent;
+  border:1 1px solid white;
+  color: white;
+  outline: none;
+  transition: .6s ease;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+}
+/* About Section */
+#about{
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+#pic{
+  display: flex;
+}
+#pic img{
+  width: 575px;
+  height: 400px;
+}
+#intro{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+}
+#intro h2{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
