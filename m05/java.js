@@ -1,5 +1,5 @@
-let number = prompt("Please pick a number 0-10"); //Prompt the user with a number selection
-var table = 5; //Store it in a variable
+let number = prompt("What is the value?"); //Prompt the user with a number selection
+var table = number; //Store it in a variable
 var table = 5;             // Unit of table 
 
 var operator = 'Multiplication'; // Type of calculation 
