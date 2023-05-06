@@ -1,10 +1,13 @@
-var table = 5;             // Unit of table 
+// Unit of table 
+var table = 5;            
 
 var operator = 'Multiplication'; // Type of calculation 
 
-var i = 1;                 // Set counter to 1 
+ // Set counter to 1 
+ var i = 1;                
 
-var msg = '<h2>Multiplication Table</h2>';              // Message 
+ // Message 
+ var msg = '<h2>Multiplication Table</h2>';
 
   
 
