@@ -398,6 +398,17 @@ html{
 
   box-sizing: border-box 
 } 
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* Module Section */ 
 
 #module{ 
@@ -470,14 +481,4 @@ html{
 
   box-sizing: border-box 
 } 
-.column {
-  float: left;
-  width: 50%;
-}
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
