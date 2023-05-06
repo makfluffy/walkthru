@@ -1,89 +1,35 @@
-
-
-p { 
-
-   font-family: 'ExoRegular'; 
-
-   font-weight: normal; 
-
-   font-style: normal; 
-
-} 
-
-h1 { 
-
-  font-family: 'ExoRegular'; 
-
-  color:black; 
-
-  font-size:normal; 
-
-} 
-
-
-</head> 
-
-.row{ 
-
-position:relative; 
-
-margin-left:10%; 
-
-margin-right:10%; 
-
-} 
-
-.white{ 
-
-border: 1px solid black; 
-
-width: 12%; 
-
-height: 60px; 
-
-background-color:white; 
-
-float:left; 
-
-} 
-
-.black{ 
-
-border: 1px solid black; 
-
-width: 12%; 
-
-height: 60px; 
-
-background-color:#787878; 
-
-float:left; 
-
-} 
-
-<style type="text/css"> 
-
-body { 
-
-font-family: Helvetica, Arial, sans-serif; 
-
-color: #665544; 
-
-padding: 15%;} 
-
-h1, h2, p { 
-
-  text-align:center; 
-
-  padding: 12px; }
-  
-  #footer {
- border:solid 1px;
- padding: 10px;
- margin:10px;
+p {
+font-family : 'ExoRegular';
+font-weight : normal;
+font-style : normal;
+}
+h1 {
+font-family : 'ExoRegular';
+color : black;
+}
+.white {
+border : black solid 1px;
+width : 12%;
+height : 60px;
+background-color : white;
+float : left;
+}
+.black {
+border : black solid 1px;
+width : 12%;
+height : 60px;
+background-color : #787878;
+float : left;
+}
+h1, h2, p {
+text-align : center;
+padding : 12px;
+}
+#footer {
+border : solid 1px;
+padding : 10px;
+margin : 10px;
 }
 body {
- background-image:url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
+background-image : url("http://3.bp.blogspot.com/-aNRb0w9Uu2E/Uk0w1v9lXjI/AAAAAAAAHrM/RipxfZqlQQ4/s1600/Texture-Backgrounds-Wallpaper-HD.jpg");
 }
-
-line-height: 2em;} 
