@@ -1,4 +1,5 @@
-prompt("What is the value?");
+let number = prompt("Please pick a number 0-10"); //Prompt the user with a number selection
+var table = number; //Store it in a variable
 
 // Unit of table 
 var table = 5;            
