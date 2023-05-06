@@ -1,16 +1,29 @@
 let number = prompt("Please pick a number 0-10"); //Prompt the user with a number selection
 var table = number; //Store it in a variable
-
-// Unit of table 
-var table = 5;            
+var table = 5;             // Unit of table 
 
 var operator = 'Multiplication'; // Type of calculation 
 
- // Set counter to 1 
- var i = 1;                
+var i = 1;                 // Set counter to 1 
 
- // Message 
- var msg = '<h2>Multiplication Table</h2>';
+var msg = '<h2>Multiplication Table</h2>';              // Message 
+
+  
+
+if (operator === 'addition') { 
+
+  // Do addition 
+
+  while (i < 11) { 
+
+    msg += i + ' + ' + table + ' = ' + (i + table) + '<br />'; 
+
+    i++; 
+
+  } 
+
+} else { 
+
   // Do multiplication 
 
   while (i < 11) { 
@@ -30,3 +43,4 @@ var operator = 'Multiplication'; // Type of calculation
 var el = document.getElementById('blackboard'); 
 
 el.innerHTML = msg; 
+
