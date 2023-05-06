@@ -1,3 +1,5 @@
+prompt("What is the value?");
+
 // Unit of table 
 var table = 5;            
 
