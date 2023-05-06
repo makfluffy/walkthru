@@ -1,62 +1,31 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Bullseye! Tutoring</title>
-    <link rel="stylesheet" href="src/css/style.css" />
-	  <script type="text/javascript" src="myjavascript.js"></script>
-  </head>
-  <body>
-	  var table = 5;             // Unit of table 
+<!DOCTYPE html> 
 
-var operator = 'Multiplication'; // Type of calculation 
+<html> 
 
-var i = 1;                 // Set counter to 1 
+  <head> 
 
-var msg = '<h2>Multiplication Table</h2>';              // Message 
+    <title>Bullseye! Tutoring</title> 
 
-  
+    <link rel="stylesheet" href="css/c01.css"/> 
 
-if (operator === 'addition') { 
+  </head> 
 
-  // Do addition 
+  <body> 
 
-  while (i < 11) { 
+    <section id="page2"> 
 
-    msg += i + ' + ' + table + ' = ' + (i + table) + '<br />'; 
+      <h1>Bullseye</h1> 
+      <script type="text/javascript" src="myjavascript.js"></script> 
 
-    i++; 
+      <img src="https://javascriptbook.com/code/c04/images/teacher.png" id="teacher2" alt="" /> 
 
-  } 
+      <section id="blackboard"></section> 
 
-} else { 
+    </section> 
 
-  // Do multiplication 
+  </body> 
 
-  while (i < 11) { 
-
-    msg += i + ' x ' + table + ' = ' + (i * table) + '<br />'; 
-
-    i++; 
-
-  } 
-
-} 
-
-  
-
-// Write the message into the page 
-
-var el = document.getElementById('blackboard'); 
-
-el.innerHTML = msg; 
-    <section id="page2">
-      <h1>Bullseye</h1>
-      <img src="https://javascriptbook.com/code/c04/images/teacher.png" id="teacher2" alt=""/>
-      <section id="blackboard"></section>
-    </section>
-    <script src="js/example.js"></script>
-  </body>
-</html>
+</html> 
   @import url(http://fonts.googleapis.com/css?family=Wellfleet);
 
 body {
