@@ -398,124 +398,25 @@ html{
 
   box-sizing: border-box 
 } 
-html {
-  box-sizing: border-box;
-  font-size: 100%;
-}
+<div class="row"> 
 
-*, *:before, *:after {
-  box-sizing: inherit;
-}
+  <div class="columns style="background-color: #000000"> 
 
-body {
-  background-color: #101010;
-  color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
-}
+<h2 class="heading">HTML</h2> 
 
-section, aside, div {
-  padding: 20px;
-  border-radius: 12px;
-}
+<P>screenshot for each of the pages with 0 HTML errors</p> 
 
-$medBlue: #2245ad;
-$magenta: #b8246b;
-$green: #0fa03f;
+                    </div> 
 
-@mixin bgGradient($color){
-  background-image: linear-gradient(lighten($color, 12%) 0%, $color 70%);  
-}
+    <div class="columns style="background-color: #000000"> 
 
-.blue {
-  background-color: $medBlue;
-  @include bgGradient($medBlue);  
-}
+<h2 class="heading">CSS</h2> 
 
-.magenta {
-  background-color: $magenta;
-  @include bgGradient($magenta);
-}
+<P>screenshot for each of the pages with 0 CSS errors</p>                                     
 
-.green {
-  background-color: $green;
-  @include bgGradient($green);
-}
+  <div class="column"></div> 
 
-h1 { 
-  font-size: 4rem; 
-}
-
-h2 { 
-  font-size: 3rem; 
-}
-
-h1, h2, h3 {
-  margin-top: 0px;
-}
-
-.flex-container {
-  
-  @media (min-width: 56.25em){
-    display: flex;  
-  }
-}
-
-.main-content {
-  flex: 1;  
-}
-
-.sidebar {
-  flex: 0 0 300px;
-}
-/* Module Section */ 
-
-#module{ 
-
-  display: flex; 
-
-  flex-direction: column; 
-
-  box-sizing: border-box; 
-
-  padding: 20px; 
-
-  margin-bottom: 50px; 
-
-} 
-
-#pic{ 
-
-  display: flex; 
-
-} 
-
-#pic img{ 
-
-  width: 575px; 
-
-  height: 400px; 
-
-} 
-
-#intro{ 
-
-  display: flex; 
-
-  flex-direction: column; 
-
-  text-align: justify; 
-
-  padding: 10px; 
-
-} 
-
-#intro h2{ 
-
-  font-size: 2rem; 
-
-  margin-bottom: 20px; 
-
-} 
+</div> 
 /* 4YOUROWNGOOD Section */ 
 
 #urown{ 
