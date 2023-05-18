@@ -2,7 +2,7 @@ let number = prompt("What is the value?"); //Prompt the user with a number selec
 var table = number; //Store it in a variable
  
 
-var operator = 'Multiplication'; // Type of calculation 
+// var operator = 'Multiplication'; // Type of calculation 
 
 var i = 1;                 // Set counter to 1 
 
