@@ -16,7 +16,7 @@ var msg = '<h2>Multiplication Table</h2>';              // Message
 
   while (i < 11) { 
 
-    msg += i + ' x ' + table + ' = ' + (i * table) + '<br />'; 
+    msg += i + ' + ' + table + ' = ' + (i * table) + '<br />'; 
 
     i++; 
 
