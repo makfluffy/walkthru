@@ -1,0 +1,46 @@
+  .dot {
+    height: 8px; width: 8px;
+    border-radius: 4px; /* rounds corners */
+    background: blue;
+    position: absolute;
+  }
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+   height: 200px;
+    background: beige;
+}
+.circle{
+	position: absolute;	
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	border-radius: 50%;
+	animation: dots 0.5s linear forwards;
+}
+.circle:nth-child(odd){
+	background-color: red;
+}
+.circle:nth-child(even){
+	background-color: #222
+}
+
+
+@keyframes dots{
+	0%{
+		height: 0;
+		width: 0;
+		opacity: 1;
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		height: 150px;
+		width: 150px;
+		opacity: 0;
+	}
+}
